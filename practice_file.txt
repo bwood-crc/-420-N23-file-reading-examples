@@ -1,0 +1,5 @@
+The input file ($input) is the name of the file you need use by the read command 1. 
+The read command reads the file line by line, assigning each line to the $line bash shell variable. 
+Once all lines are read from the file the bash while loop will stop. The internal field 9 separator (IFS) 
+is set to the empty string to preserve whitespace issues. This is a fail-safe feature. 
+The -r option is used not to allow backslashes to escape any characters.
